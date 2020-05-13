@@ -49,7 +49,6 @@ def get_value(card):
 	return value
 
 
-#forgot to use this whooops (gotta use it on the re-write)
 def same_value(card1, card2):
 	card1_value = get_value(card1)
 	card2_value = get_value(card2)
@@ -177,6 +176,4 @@ def give_cards(num_of_players, hands):
 		player4 = hands[3]
 		return player1, player2, player3, player4
 
-'''could not figure out how to take a list of names, turn them into
-variables and then assign each variable/name a list from the nested list
-'hands'. Just going to move on for now ''' 
+ 
